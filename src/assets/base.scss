@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #3366ff;
+  --secondary-color: #03192d;
+  --accent-color: #ffcc33;
+
+  --text-light: #f9f9f9;
+
+  --background-color: #04213c;
+  --background-color-light: #d5d9e5;
+
+  --header-font: "K2D", sans-serif;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+
+  --section-padding: 80px 88px;
+  --big-flex-gap: 64px;
+  --small-flex-gap: 32px;
+}
+
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* For all browsers */
+::-webkit-scrollbar {
+  width: 5px; /* sets the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* sets the color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* sets the color of the scrollbar track */
+}
+
+@-moz-document url-prefix() {
+  /* Firefox-specific CSS code here */
+  body {
+    scrollbar-color: #ccc transparent; /* sets the color of the scrollbar thumb and track */
+    scrollbar-width: thin;
+  }
+}
+// /* For Firefox */
+// scrollbar-color: #ccc #f1f1f1; /* sets the color of the scrollbar thumb and track */
+// scrollbar-width: thin; /
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-light) !important;
+  background-color: var(--background-color) !important;
+}
