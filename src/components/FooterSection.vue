@@ -74,6 +74,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+  .get-in-touch {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
 }
 .copyright {
   background-color: var(--secondary-color);
@@ -96,6 +101,9 @@ footer {
     line-height: 18px;
     margin-bottom: 8px;
     max-width: 700px;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 }
 </style>
