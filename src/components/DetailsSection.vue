@@ -54,6 +54,7 @@ let details = ref([
   .detail {
     @media (max-width: 768px) {
       flex-direction: column !important;
+      gap: 24px;
     }
     .detail-txt {
       max-width: 490px;

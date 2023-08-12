@@ -2,6 +2,7 @@
   <div>
     <HeroSection />
     <div class="container">
+      <VideoSection />
       <SpecsSection />
       <DetailsSection />
       <PartnerSection />
@@ -16,6 +17,7 @@ import SpecsSection from "../components/SpecsSection.vue";
 import DetailsSection from "../components/DetailsSection.vue";
 import PartnerSection from "../components/PartnerSection.vue";
 import FooterSection from "../components/FooterSection.vue";
+import VideoSection from "../components/VideoSection.vue";
 </script>
 <style>
 .container {

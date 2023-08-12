@@ -38,11 +38,13 @@ let cards = ref([
 .cards-section {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   max-width: 1140px;
   margin: 0 auto;
   padding: 60px 0;
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
     gap: 16px;
   }
 }
