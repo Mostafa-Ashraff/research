@@ -1,5 +1,5 @@
 <template>
-  <section class="details-section">
+  <section class="details-section" id="about">
     <div
       class="detail d-flex justify-content-between align-items-center"
       v-for="(detail, i) in details"

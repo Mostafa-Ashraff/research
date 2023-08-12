@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero" id="home">
     <NavBar />
     <div class="hero-content">
       <h4 class="hero-subtitle">Research</h4>

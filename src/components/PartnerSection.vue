@@ -1,5 +1,5 @@
 <template>
-  <section class="partner-section">
+  <section class="partner-section" id="clients">
     <h2>Our <span>Clients</span></h2>
     <Swiper
       :slidesPerView="isMobile ? 3 : 6"

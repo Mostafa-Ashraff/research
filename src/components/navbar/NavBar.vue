@@ -6,9 +6,9 @@
       </a>
     </div>
     <div v-if="!isMobile" class="navbar-center">
+      <a href="#home" class="navbar-link">Home</a>
       <a href="#about" class="navbar-link">About Us</a>
-      <a href="#partners" class="navbar-link">Projects</a>
-      <a href="#team" class="navbar-link">Our Team</a>
+      <a href="#clients" class="navbar-link">Clients</a>
     </div>
     <div v-if="!isMobile" class="navbar-right">
       <ContactUs />
@@ -21,8 +21,8 @@
       </div>
       <div class="navbar-mobile-links">
         <a href="#home" class="navbar-link">Home</a>
-        <a href="#projects" class="navbar-link">Projects</a>
-        <a href="#team" class="navbar-link">Our Team</a>
+        <a href="#about" class="navbar-link">About Us</a>
+        <a href="#clients" class="navbar-link">Clients</a>
         <ContactUs />
       </div>
     </div>
